@@ -1,0 +1,128 @@
+@import 'colors';
+
+%align-items {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.card {
+    margin: 0 166px 20px;
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    padding: 0 20px 0;
+
+    &__one {
+        background: $primary;
+        padding: 20px;
+        max-width: 350px;
+        min-width: 350px;
+
+        &__ui--header {
+            font-size: 21px;
+            font-weight: 700;
+            margin-bottom: 10px;
+        }
+
+        &__ui--img {
+            object-fit: contain;
+            margin-bottom: 10px;
+
+            &--img {
+                width: 100%;
+            }
+        }
+
+        &__ui--link {
+
+            color: $link;
+            text-decoration: none;
+            font-size: 13px;
+            margin: 10px 0;
+        }
+    }
+
+    &__two {
+        max-width: 350px;
+        min-width: 350px;
+        background: $primary;
+        padding: 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+
+        &__ui--header {
+            font-size: 21px;
+            font-weight: 700;
+            margin-bottom: 10px;
+        }
+
+        &__ui--link {
+            color: $link;
+            text-decoration: none;
+            font-size: 13px;
+            margin: 10px 0;
+        }
+    }
+
+    &__three {
+        min-width: 350px;
+        max-width: 350px;
+        background: $primary;
+        padding: 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+
+        &__ui--header {
+            font-size: 21px;
+            font-weight: 700;
+            margin-bottom: 10px;
+        }
+
+        &__ui--link {
+            color: $link;
+            text-decoration: none;
+            font-size: 13px;
+            margin: 10px 0;
+        }
+    }
+
+
+    &__four {
+        min-width: 350px;
+        max-width: 350px;
+        max-height: 150px;
+        background: $primary;
+        padding: 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+
+        &__ui--header {
+            font-size: 21px;
+            font-weight: 700;
+            margin-bottom: 10px;
+        }
+
+        &__ui--link {
+            color: $black;
+            text-decoration: none;
+            text-align: center;
+            font-size: 14px;
+            background: $button;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border-radius: 4px;
+            padding: 8px 0;
+        }
+    }
+}
+
+.cards__items {
+    margin: 50px 200px;
+    display: flex;
+    justify-content: space-between;
+}

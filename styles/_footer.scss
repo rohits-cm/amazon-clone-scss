@@ -1,0 +1,228 @@
+@import 'colors';
+
+%align-items {
+    display: flex;
+    flex-direction: column;
+}
+
+// Footer
+.footer {
+    background: $darkblue;
+
+}
+
+.footer__nav {
+    display: flex;
+    flex-direction: column;
+    background: $darkblue;
+    align-items: center;
+    justify-content: center;
+
+    &__breaker {
+        border-top: 0.1px solid #7c7c7c;
+        width: 100%;
+    }
+
+    // Back to top
+    &__scroll {
+        text-decoration: none;
+        display: flex;
+        text-align: center;
+        background: #35455B;
+        color: $primary;
+        width: 100%;
+        justify-content: center;
+        padding: 15px 0;
+        font-size: 15px;
+    }
+
+    &__scroll:hover {
+        background-color: #46556A;
+        color: $primary;
+      }
+
+    &__menu {
+        display: flex;
+        background: $darkblue;
+        justify-content: center;
+        padding: 20px 0;
+        margin-top: 50px;
+
+        &__spacer {
+            width: 100px;
+        }
+
+        // Get to Know Us
+        &--identity {
+            display: flex;
+            flex-direction: column;
+
+            &--heading {
+                margin: 6px 0 14px;
+                font-size: 16px;
+                font-weight: 700;
+                color: $primary;
+            }
+
+            &--list {
+                color: #ddd;
+                font-size: $primary-font;
+                margin-bottom: 10px;
+                text-decoration: none;
+            }
+        }
+
+        // Connect With Us
+        &--socials {
+            display: flex;
+            flex-direction: column;
+
+            &--heading {
+                margin: 6px 0 14px;
+                font-size: 16px;
+                font-weight: 700;
+                color: $primary;
+            }
+
+            &--list {
+                color: #ddd;
+                font-size: $primary-font;
+                margin-bottom: 10px;
+                text-decoration: none;
+            }
+        }
+
+        // Sell with us
+        &--partnership {
+            display: flex;
+            flex-direction: column;
+
+            &--heading {
+                margin: 6px 0 14px;
+                font-size: 16px;
+                font-weight: 700;
+                color: $primary;
+            }
+
+            &--list {
+                color: #ddd;
+                font-size: $primary-font;
+                margin-bottom: 10px;
+                text-decoration: none;
+            }
+        }
+
+        // resources
+        &--resources {
+            display: flex;
+            flex-direction: column;
+
+            &--heading {
+                margin: 6px 0 14px;
+                font-size: 16px;
+                font-weight: 700;
+                color: $primary;
+            }
+
+            &--list {
+                color: #ddd;
+                font-size: $primary-font;
+                margin-bottom: 10px;
+                text-decoration: none;
+            }
+        }
+    }
+
+    // Language
+    &__language {
+        display: flex;
+        background: $darkblue;
+        justify-content: center;
+        padding: 20px 0;
+        gap: 56px;
+        margin: 10px 0;
+
+        &__logo {
+            max-width: 90px;    
+
+        }
+
+        &__languages {
+            display: flex;
+            gap: 8px;
+            color: #ccc;
+            text-decoration: none;
+            font-size: 13px;
+            padding: 8px 8px;
+            border-radius: 4px;
+            border: 0.1px solid $secondary;
+        }
+    }
+
+    // countries
+    &__countries {
+        background: $darkblue;
+        text-align: center;
+        padding: 0 130px 24px;
+        max-width: 1200px;
+
+
+        &--list {
+            font-size: 12px;
+            text-decoration: none;
+            color: #ddd;
+            text-align: center;
+            padding: 0 7.2px;
+        }
+    }
+
+    // subcategories
+    &__subcat {
+        background: $black;
+        width: 100%;
+        padding: 30px 0;
+
+
+        &__books {
+            margin: 0 416px;
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px 100px;
+            justify-content: center;
+
+            &--list {
+                text-decoration: none;
+                color: #ddd;
+                font-size: $secondary-font;
+
+                &--ii {
+                    color: #999;
+                    font-size: $secondary-font;
+                }
+            }
+        }
+
+        &__rights {
+            margin-top: 50px;
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+
+            &--list {
+                text-decoration: none;
+                color: #ddd;
+                font-size: $secondary-font;
+            }
+        }
+
+        &__copyright {
+            text-align: center;
+
+            &--list {
+                text-decoration: none;
+                color: #ddd;
+                font-size: $secondary-font;
+            }
+        }
+    }
+}

@@ -1,0 +1,48 @@
+@import 'colors';
+
+.personalized {
+    text-align: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    padding: 20px 0;
+    background: white;
+    gap: 10px;
+
+    &__breaker {
+        border-top: 0.1px solid #ddd;
+        width: 100%;
+    }
+    &__breaker02 {
+        margin-top: 20px;
+    }
+
+    &__heading {
+        justify-content: center;
+        font-size: 13px;
+    }
+
+    &__btn {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-weight: 900;
+        background: $button;
+        font-size: 12px;
+        height: 28px;
+        width: 230px;
+        text-decoration: none;
+        color: $black;
+        border-radius: 4px;
+    }
+
+    &__signup {
+        font-size: 11px;
+    }
+
+    &__click {
+        text-decoration: none;
+        color: $link;
+    }
+
+}
